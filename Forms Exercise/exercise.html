@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Exercise</title>
+    </head>
+    
+    <body>
+        <h1>Register</h1>
+        
+        <form>
+            <p>
+                <label for="fname">First Name:</label>
+                <input id="fname" name="fname" required>
+
+                <label for="lname">Last Name:</label>
+                <input id="lname" name="lname" required>
+            </p>
+            
+            <p>
+                <label for="male">Male</label>
+                <input name="gender" id="male" type="radio" value="male">
+
+                <label for="female">Female</label>
+                <input name="gender" id="female" type="radio" value="female">
+
+                <label for="other">Other</label>
+                <input name="gender" id="other" type="radio" value="other">
+            </p>
+            
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="email" required>
+
+                <label for="password">Password:</label>
+                <input pattern=".{5,10}" name="password" type="password" placeholder="password" required>
+            </p>
+            
+            <p>Birthday: 
+                <select name="month" placeholder="month" id="birthday">
+                    <option value="default">Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                </select>
+
+                <select name="day" placeholder="day" id=birthday>
+                    <option value="default">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+                <select name="year" placeholder="year" id="birthday">
+                    <option value="default">Year</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="terms">I agree to the terms and conditions</label>
+                <input name="terms" id="terms" type="radio" value="agree" required>
+            </p>
+            
+            <button>Submit</button>
+            
+        </form>
+    </body>
+</html>
