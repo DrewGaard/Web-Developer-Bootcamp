@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Ot
+wq exit:qw
+exit
+
+wq exit
+wq exit
+branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Forms Exercise/exercise.html
+#	new file:   Forms/forms.html
+#	new file:   Inputs/inputs.html
+#	new file:   Pokemon Project/Pokemon.html
+#	net
+file:   Pokemon Project/Pokemon.sublime-workspace
+#
