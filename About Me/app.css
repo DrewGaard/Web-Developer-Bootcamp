@@ -1,11 +1,28 @@
 h1 {
-    color: red;
+    color: rgba(255,25,100, .4);
+/*
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+*/
+    
+    border: 8px dashed purple;
 }
 
 li {
-    color: green;
+    color: rgb(0,255,0);
 }
 
 h4 {
     color: purple;
+    background: rgb(255,100,80);
+}
+
+body {
+    background: pink;
+/*
+    background: url(https://images.unsplash.com/photo-1533896183666-44caa1c9df52?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7b0714f3c2279eccc21b5665f749b1f1&auto=format&fit=crop&w=1489&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
 }
